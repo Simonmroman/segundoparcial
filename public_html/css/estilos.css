@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 19, 2018, 6:33:42 PM
+    Author     : 00140007
+*/
+#cabecera{
+    font-family: Magneto;
+    font-size: 75px;
+    color: #FB8C00;
+    text-align: center;    
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: MV Boli;
+    color: white;
+    background: #FFB300;
+    padding: 15px;
+    border-radius: 20px;
+}
+#menu{
+    text-align: center;
+}
+img{
+    border-radius: 20px;
+}
+#cuerpo{
+    text-align: center;
+    font-family: Felix Titling;
+    font-size: 24px;
+}
+#pie{
+    text-align: center;
+    font-family: Felix Titling;
+    font-size: 20px;
+    background: #FF9800;
+    color: white;
+}
+form{
+    margin: 0 auto;
+    width: 700px;
+    background: #FF9800;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: left;
+}
+h1{
+    text-align: center;
+    font-family: Felix Titling;
+}
+a:hover {
+   color: #E53935;
+   font-size: 30px;
+   background: #FFCC80;
+}
+a:visited{
+    color: #AB47BC;
+}
