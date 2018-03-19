@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="cabecera">
+            Ótica Italiana <p>
+                Belissima <p>
+        </div>
+        <div id="menu">
+            <ul>
+                <li>Inicio</li>
+                <li>Quienes Somos</li>
+                <li>Menú</li>
+                <li>Contacto</li>
+            </ul>
+        </div>
+        <div id="formulario">
+            <h1>Formulario de Registro</h1>
+            <form> 
+                <div>
+                    <label for="Nombre"> Nombre:</label>
+                    <input tipe="text" id="Nombre"/>
+                    </div>
+                <div>
+                <label for="Teléfono"> Teléfono: </label>
+                <input type="text" id="Teléfono"/>
+                </div>
+                <div>
+                <label for="Correo"> e-Mail: </label>
+                <input type="emal" id="email"/>
+                </div>
+                <div>
+                <label for="Asunto"> Qué necesitas? </label>
+                <select id="Asunto" name="Asunto">
+                    <option value="" selected="selected"> - Selecciona - </option>
+                    <option value="" selected="selected"> Subscribirme a las ofertas del Restaurante </option>
+                    <option value="Información"> Solicitud de Información </option>
+                    <option value="Cotiza"> Solicitud de Empleo </option>
+                    <option value="Reclamación"> Realizar una reclamación </option>
+                    <option value="Otros"> Otros</option>
+                </select>
+                </div>
+                <div>
+                <label for="Mensaje"> Mensaje: </label>
+                <textarea id="Mensaje" cols="80" row="10"></textarea>
+                </div>
+                <div class="Botón">
+                    <button type="submit"> Enviar este mensaje</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
